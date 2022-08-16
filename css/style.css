@@ -1,0 +1,41 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  width: auto;
+}
+h1 {
+  text-align: center;
+}
+#megasena-board {
+  margin: auto;
+  width: 790px;
+}
+button {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.numbers {
+  border: 1px solid gray;
+  text-align: center;
+  list-style: none;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.number {
+  display: inline-block;
+  border: 1px solid gray;
+  margin: 10px;
+  width: 25px;
+  padding: 5px;
+  border-radius: 100%;
+  user-select: none;
+  cursor: pointer;
+}
+
+.selected-number {
+  background-color: lightgreen;
+}
